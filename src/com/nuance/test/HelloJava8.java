@@ -41,7 +41,7 @@ public class HelloJava8 {
 //			return b.compareTo(a);
 //			});
 		
-//		Collections.sort(names, (String a, String b) -> b.compareTo(a));
+		Collections.sort(names, (String a, String b) -> b.compareTo(a));
 		Collections.sort(names, (a, b) -> b.compareTo(a));
 		System.out.println(names);
 
